@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header img {
+    height: 150px;
+}
+
+html {
+	background-color: #a9a9a9;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #000000;
+    background-color: #b19cd9;
+}
+a:focus, a:hover {
+	font-style: bold;
+}
+
+/* header */
+header {
+	padding: 2em 0 2em 0;
+	border-bottom: 2px solid #000000;
+	background-color: #b19cd9;
+}
+header h2 {
+	font-size: 175%;
+	color: #000000;
+}
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+}
+header img {
+	float: left;
+	padding: 0 30px;
+}
+
+/* nav menu */
+#nav_menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative
+    float: top;
+}
+#nav_menu ul li {
+	float: left;
+}
+#nav_menu ul li a {
+    display: block;
+    width: 160px;
+    text-align: center;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}
+#nav_menu a.current {
+	color: yellow;
+}
+
+}
+#nav_menu ul li:hover > ul {
+	display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/* the styles for the main content */
+main {
+	clear: left;
+}
+section img {
+    height: 200px
+}
+
+/* section */
+section {
+	width: 750px;
+	float: center;
+	padding: 20px;
+}
+section h2 {
+	color: #000000;
+	font-size: 130%;
+}
+section p {
+	padding-bottom: .5em;
+}
+section ul {
+	padding: 0 0 .25em 1.25em;
+}
+section li {
+	padding-bottom: .35em;
+}
+
+section {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px;
+}
+section h1 {
+	color: #800000;
+	font-size: 150%;
+	padding-top: .5em;
+	margin: 0;
+}
+section h1.spaceafter {
+	margin-bottom: .25em;
+}
+section p {
+	padding-bottom: .5em;
+}
+section blockquote {
+	padding: 0 2em;
+	font-style: italic;
+}
+section ul {
+	padding: .25em 0 .5em 0;
+}
+section li {
+	padding-bottom: .35em;
+}
+/* the styles for the image swap list */ 
+section #image_list li {
+	padding: 2px;
+	display: inline;
+}
+section #image_list a {
+	border:none;
+}
+section #image_list ul {
+	padding-bottom: .25em;
+	text-decoration: none;
+}
+
+/* the styles for the footer */
+footer {
+	background-color: #000000;
+	clear: both;
+
+}
+footer p {
+	text-align: center;
+	color: white;
+	padding: 1em 0;
+}
+/* the styles for the form */
+fieldset {
+    margin-bottom: .2em;
+    padding: .5em 1em;
+}
+legend {
+    font-weight: bold;
+    font-size: 85%;
+    padding-bottom: .5em;
+}
+label, input, select {
+	font-size: 90%;
+}
+label {
+    float: left;
+    width: 10em;
+    text-align: left;
+}
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+br {
+    clear: both;
+}
+#buttons input {
+	width: 10em;
+}
